@@ -39,7 +39,7 @@ export default function HeroSection() {
           </div>
 
           {/* Sell Any Card */}
-          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
+          <div id="sell-any-card" className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
             <h3 className="text-xl font-semibold mb-4">Sell Any Card</h3>
             <Image src="/bit.png" alt="Card" width={120} height={180} className="mb-4" />
             <button className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700">List for Sale</button>

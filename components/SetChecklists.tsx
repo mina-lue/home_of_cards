@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function SetChecklists() {
   return (
-    <section className="bg-[#f4f1ea] py-20">
+    <section id="checklists" className="bg-[#f4f1ea] py-20">
        {/* Note: bg-[#f4f1ea] matches the body background in globals.css, ensuring seamless look if needed, or stick to white/gray as per design interpretation. The design image shows it might be the same background as the page. */}
       <div className="container mx-auto px-4 relative">
         

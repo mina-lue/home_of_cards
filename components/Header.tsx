@@ -44,16 +44,16 @@ export default function Header() {
                   Home
                 </Link>
               </li>
-              <li><Link href="#" className="hover:text-red-600 transition-colors">Checklists</Link></li>
-              <li><Link href="#" className="hover:text-red-600 transition-colors">Trackers</Link></li>
+              <li><Link href="#checklists" className="hover:text-red-600 transition-colors">Checklists</Link></li>
+              <li><Link href="#trackers" className="hover:text-red-600 transition-colors">Trackers</Link></li>
               <li><Link href="#" className="hover:text-red-600 transition-colors">Breakers</Link></li>
-              <li><Link href="#" className="hover:text-red-600 transition-colors">HOC Live</Link></li>
-              <li><Link href="#" className="hover:text-red-600 transition-colors">Value your card</Link></li>
-              <li><Link href="#" className="hover:text-red-600 transition-colors">We buy any card</Link></li>
+              <li><Link href="#news" className="hover:text-red-600 transition-colors">HOC Live</Link></li>
+              <li><Link href="#grading" className="hover:text-red-600 transition-colors">Value your card</Link></li>
+              <li><Link href="#sell-any-card" className="hover:text-red-600 transition-colors">We buy any card</Link></li>
             </ul>
             
             <Link 
-              href="#" 
+              href="#contact" 
               className="bg-[#C82020] hover:bg-red-700 text-white px-8 py-2.5 rounded-full font-medium transition-colors ml-4"
             >
               Contact
@@ -68,26 +68,26 @@ export default function Header() {
                         <Link href="/" className="text-red-600" onClick={() => setIsMenuOpen(false)}>Home</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
-                        <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Checklists</Link>
+                        <Link href="#checklists" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Checklists</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
-                        <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Trackers</Link>
+                        <Link href="#trackers" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Trackers</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
                         <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Breakers</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
-                        <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>HOC Live</Link>
+                        <Link href="#news" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>HOC Live</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
-                        <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Value your card</Link>
+                        <Link href="#grading" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>Value your card</Link>
                     </li>
                     <li className="border-b border-gray-100 pb-2">
-                        <Link href="#" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>We buy any card</Link>
+                        <Link href="#sell-any-card" className="hover:text-red-600" onClick={() => setIsMenuOpen(false)}>We buy any card</Link>
                     </li>
                     <li className="pt-2">
                          <Link 
-                            href="#" 
+                            href="#contact" 
                             className="inline-block bg-[#C82020] hover:bg-red-700 text-white px-8 py-2.5 rounded-full font-medium transition-colors w-full"
                             onClick={() => setIsMenuOpen(false)}
                             >

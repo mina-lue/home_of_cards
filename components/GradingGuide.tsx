@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function GradingGuide() {
   return (
-    <section className="bg-[#f4f1ea] py-24">
+    <section id="grading" className="bg-[#f4f1ea] py-24">
       <div className="container mx-auto px-4">
         
         {/* Header */}

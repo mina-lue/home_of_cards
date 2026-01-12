@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function NewsArticles() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section id="news" className="bg-gray-100 py-20">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="flex flex-col items-center mb-12 relative">

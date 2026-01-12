@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function TrackerTool() {
   return (
-    <section className="bg-gradient-to-br from-[#d63030] to-[#b91c1c] py-20 relative overflow-hidden">
+    <section id="trackers" className="bg-gradient-to-br from-[#d63030] to-[#b91c1c] py-20 relative overflow-hidden">
       {/* Background patterns overlay could go here */}
       <div className="absolute inset-0 opacity-10 bg-[url('/bit.png')] bg-repeat"></div>
       
