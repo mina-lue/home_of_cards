@@ -5,10 +5,10 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="flex items-center">
-          <Image src="/logo.png" alt="HOME of cards logo" width={100} height={50} />
-          <nav className="ml-10">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between md:justify-start">
+        <div className="flex items-center flex-grow">
+          <Image src="https://via.placeholder.com/100x50" alt="HOME of cards logo" width={100} height={50} />
+          <nav className="ml-10 hidden md:block">
             <ul className="flex space-x-6 text-gray-700 font-medium">
               <li><Link href="/" className="hover:text-red-600">Home</Link></li>
               <li><Link href="/checklists" className="hover:text-red-600">Checklists</Link></li>
@@ -21,7 +21,12 @@ export default function Header() {
             </ul>
           </nav>
         </div>
-        <button className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700">Contact</button>
+        <div className="md:hidden">
+          <button className="text-gray-700 text-2xl">
+            &#9776; {/* Hamburger icon */}
+          </button>
+        </div>
+        <button className="bg-red-600 text-white px-6 py-2 rounded-full hover:bg-red-700 hidden md:block ml-auto">Contact</button>
       </div>
     </header>
   );

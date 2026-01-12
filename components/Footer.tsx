@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="bg-gray-100 py-10">
       <div className="container mx-auto px-4 text-gray-800">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {/* Company Info */}
           <div>
-            <Image src="/logo.png" alt="HOME of cards logo" width={100} height={50} className="mb-4" />
+            <Image src="https://via.placeholder.com/100x50" alt="HOME of cards logo" width={100} height={50} className="mb-4" />
             <p className="text-sm leading-relaxed mb-4">Duis dapibus eget urna id dignissim. nec consequat nibh euismod. Nam facilisis massa libero, a interdum justo egestas eget. In eget velit pretium, euismod quam non, cursus elit.</p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-600 hover:text-red-600"><i className="fab fa-facebook-f"></i></Link>
@@ -58,8 +58,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 space-y-4 md:space-y-0">
-          <div className="flex space-x-4">
+        <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 space-y-4 md:space-y-0 text-center md:text-left">
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
             <Link href="#" className="hover:text-red-600">Privacy Policy</Link>
             <Link href="#" className="hover:text-red-600">Contact</Link>
             <Link href="#" className="hover:text-red-600">Terms and Conditions</Link>
